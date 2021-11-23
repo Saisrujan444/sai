@@ -1,0 +1,59 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+from os import system, name
+import itertools
+import threading
+import time
+import sys
+import datetime
+from base64 import b64decode,b64encode
+from datetime import date
+
+expirydate = datetime.date(2021, 10, 1)
+#expirydate = '\\']) :
+                if done:
+                    break
+                sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
+                sys.stdout.flush()
+                time.sleep(20)
+            sys.stdout.write('\rDone!     ')
+
+        t = threading.Thread(target=animate)
+        t.start()
+
+        #long process here
+        time.sleep(20)
+        done = True
+
+    def chalo1():
+        done = False
+        #here is the animation
+        def animate():
+            for c in itertools.cycle(['|', '/', '-', '\\']):
+                if done:
+                    break
+                sys.stdout.write('\rgetting the colour wait --------- ' + c)
+                sys.stdout.flush()
+                time.sleep(20)
+            sys.stdout.write('\rDone!     ')
+
+        t = threading.Thread(target=animate)
+        t.start()
+
+        #long process here
+        time.sleep(20)
+        done = True
+
+    def clear():
+        # for windows
+        if name == 'nt':
+, 10, 1)
+today=date.today()
+def hero():
+
+    def chalo():
+        done = False
+        #here is the animation
+        def animate():
+            for c in itertools.cycle(['|', '/', '-', '\\
